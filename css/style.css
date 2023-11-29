@@ -208,7 +208,7 @@ nav .fa {
 /*--- course ---*/
 
 .course {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -234,10 +234,10 @@ p {
 }
 
 .course-col {
-    flex-basis: 31%;
+    /* flex-basis: 31%; */
     background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
+    /* border-radius: 10px; */
+    /* margin-bottom: 5%; */
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -262,23 +262,33 @@ h3 {
 /*--- about us ---*/
 
 .about {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
+.about-gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
 .about-col {
-    flex-basis: 32%;
+    /* flex-basis: 32%; */
     border-radius: 10px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     position: relative;
     overflow: hidden;
 }
 
 .about-col img {
+    /* width: 100%;
+    display: block; */
     width: 100%;
-    display: block;
+	height: auto;
+	object-fit: cover;
+	transition: transform 0.3s ease;
 }
 
 .layer {
@@ -316,32 +326,10 @@ h3 {
 /*--- facilities ---*/
 
 .facilities {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     text-align: center;
     padding-top: 50px;
-}
-
-.facilities-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-
-.facilities-col img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.facilities-col p {
-    padding: 0;
-}
-
-.facilities-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
 }
 
 /*--- footer ---*/
@@ -396,7 +384,7 @@ footer ul {
 }
 
 .footer-col ul li a {
-    font-size: 16px;
+    font-size: 13px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
@@ -510,7 +498,7 @@ footer p {
 
 .cta {
     margin: 100px auto;
-    width: 80%;
+    /* width: 80%; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(/images/banner2.jpg);
     background-position: center;
     background-size: cover;
@@ -556,7 +544,7 @@ footer p {
 }
 
 .about-us {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px;
@@ -596,9 +584,9 @@ footer p {
 /*--- blog content ---*/
 
 .blog-content {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .blog-left {
@@ -678,7 +666,7 @@ footer p {
 /*--- contact us page ---*/
 
 .location {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     padding: 80px 0;
 }
@@ -688,7 +676,7 @@ footer p {
 }
 
 .contact-us {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
 }
 
