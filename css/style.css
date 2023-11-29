@@ -600,17 +600,7 @@ footer p {
 /*--- blog content ---*/
 
 .blog-content {
-    /* width: 80%; */
     margin: auto;
-    /* padding-top: 100px; */
-}
-
-.blog-left {
-    /* flex-basis: 65%; */
-}
-
-.blog-left img {
-    /* width: 100%; */
 }
 
 .blog-left h2 {
@@ -622,10 +612,6 @@ footer p {
 .blog-left p {
     color: #222;
     padding: 0;
-}
-
-.blog-right {
-    /* flex-basis: 32%; */
 }
 
 .blog-right h3 {
