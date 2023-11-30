@@ -231,19 +231,25 @@ p {
     color: #777;
     font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
+    /* line-height: 22px; */
+    /* padding: 10px; */
 }
 
 .row {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     justify-content: space-between;
+}
+
+.mt-18 {
+    margin-top: 18px;
 }
 
 .course-col {
     /* flex-basis: 31%; */
     background: #fff3f3;
+    width: 100%;
+    text-align: justify;
     /* border-radius: 10px; */
     /* margin-bottom: 5%; */
     padding: 20px 12px;
@@ -299,6 +305,11 @@ h3 {
     transition: transform 0.3s ease;
 }
 
+.about-bold {
+    font-weight: 600;
+    padding-bottom: none;
+}
+
 .layer {
     background: transparent;
     height: 100%;
@@ -310,7 +321,7 @@ h3 {
 }
 
 .layer:hover {
-    background: #20432e96;
+    background: #20433396;
 }
 
 .layer h3 {
@@ -449,7 +460,7 @@ footer p {
         margin-bottom: 30px;
     }
 
-    .ifrae-google {
+    .iframe-google {
         width: calc(100vw - 24px);
         height: 256px;
     }
